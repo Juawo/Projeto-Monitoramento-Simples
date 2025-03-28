@@ -64,13 +64,11 @@ target_include_directories(projeto-sistema-monitoramento-simples PRIVATE
 
 
 # Add any user requested libraries
-
-target_link_libraries(projeto-led-FreeRTOS
+target_link_libraries(projeto-sistema-monitoramento-simples
         pico_stdlib
         FreeRTOS-Kernel
         FreeRTOS-Kernel-Heap4
         )
-
 
 pico_add_extra_outputs(projeto-sistema-monitoramento-simples)
 
